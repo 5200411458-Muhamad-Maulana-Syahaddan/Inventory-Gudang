@@ -1,0 +1,4 @@
+Di tahap Implementasi ini program mulai dikerjakan.
+Program akan dikerjakan menggunakan Bahasa Pemograman PHP, HTML, CSS, JavaScript dan Database menggunakan MySql.
+Bagian Front end membuat layout aplikasi agar seperti desain yang sudah dibuat di tahap desain sebelumnya. 
+dan bagian Back end mengerjakan database dan relasinya sesuai yang di desain di tahap desain database.
