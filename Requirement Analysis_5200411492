@@ -1,0 +1,8 @@
+ANALYSIS INVENTORI BARANG
+Pada tahap analysis ini kami menggunakan metode wawancara terhadap pemilik perusahaan tersebut. Seteleah kita melakukan wawancara kita mendapati hal hal yang perlu diperhatikan dalam sistem inventory perusahaan yaitu :
+1.	Login user : sistem ini dilakukan untuk pihak admin dan pihak user untuk melakukan login ke aplikasi. Dan akan dilakukan sebuah validasi untuk mengetahui apakah admin atau user supaya bisa dilanjutkan ke halaman seanjutnya.
+2.	Input barang : kegiatan ini dilakukan untuk pihak admin gudang untuk memasukan sebuah data baru yaitu produk lalu di update ke halaman aplikasi, dan dilakukan untuk mendata produk yang baru.
+3.	Ubah data barang : kegiatan ini dilakukan pihak admin untuk mengubah stok produk barang yang tersedia maupun yang tidak tersedia, selain itu juga untuk memberikan informasi terhadap user mengenai stok produk.
+4.	Hapus data barang : kegiatan ini dilakukan pihak admin untuk menghapus suatu data yang dimana bila ada suatu produk yang rusak, ataupun cacat supaya user tidak mendapatkannya.
+5.	Ubah password : sistem ini dilakukan untuk pihak admin maupun user untuk mengubah data pribadi yaitu password.
+6.	Log out : sistem ini dilakukan untuk pihak admin maupun user untuk keluar dari akun.
