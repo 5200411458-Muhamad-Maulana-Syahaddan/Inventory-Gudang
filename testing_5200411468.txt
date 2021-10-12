@@ -1,0 +1,8 @@
+Metode testing yang digunakan adalah Metode Blackbox. Metode ini berupa pengujian yang dilakukan mengamati hasil eksekusi melalui 
+data uji dan memeriksa fungsional dari perangkat lunak. Pengujian  perangkat  lunak  dengan metode  black  box  melibatkan  
+client  atau pelanggan  yang  memesan  perangkat  lunak tersebut
+Pengujian ini berusaha menemukan :
+-	Kesalahan interface
+-	Kesalahan struktur data atau akses database eksternal
+-	Kesalahan inisialisasi dan terminasi
+-	Kesalahan performa
