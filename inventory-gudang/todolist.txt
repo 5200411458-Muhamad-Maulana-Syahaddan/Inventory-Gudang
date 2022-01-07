@@ -1,0 +1,17 @@
+1. 2 Access user (Admin dan User)
+2. Login 
+3. Input barang (admin dan Operator)
+4. Edit baraang (admin dan Operator)
+5. Hapus Barang (admin dan Operator)
+6. Cetak invoice Barang (user, Operator dan admin)
+7. Lihat Barang (user, Operator dan admin)
+8. Ubah Password (user, Operator dan admin)
+9. Tampilkan barang masuk dan keluar (user dan admin).
+10. Ubah role user (admin).
+
+Tabel Data base
+1. Tb_User (id_user, username, email, id_role, password,).
+2. tb_barang_masuk (id, id_transaksi,kode_barang, nama_barang, jumlah, id_jenis, tgl_masuk, Lokasi)
+3. tb_barang_keluar(id,id_transaksi,tanggal_masuk, tanggal_keluar, Lokasi, kode_barang,nama_barang,id_satuan,jumlah).
+4. tb_role (id_role, name).
+5. tb_satuan (id_satuan, kode_satuan, nama_satuan).
