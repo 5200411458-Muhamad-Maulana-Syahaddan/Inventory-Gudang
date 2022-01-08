@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Operator;
+use App\Controllers\BaseController;
 
 class Operator extends BaseController
 {

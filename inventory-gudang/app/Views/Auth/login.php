@@ -24,10 +24,11 @@
       <div class="card-header text-center">
         <b class="h1">Inventory Gudang</b>
       </div>
+      
       <div class="card-body">
-        <form action="../../index3.html" method="post">
+        <form action= "<?= base_url('/Signin')?>" method="post">
           <div class="input-group mb-3">
-            <input type="username" class="form-control" placeholder="Username" autofocus required>
+            <input type="username" name = "username" id = "username" class="form-control" placeholder="Username" autofocus required>
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-envelope"></span>
@@ -35,14 +36,19 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" class="form-control" placeholder="Password" required>
+            <input type="password" name="password" id="password"class="form-control" placeholder="Password" required>
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-lock"></span>
               </div>
             </div>
           </div>
-          <a href="<?= base_url('/register') ?>" >Register</a>
+          <?php if (session()->getFlashdata('error')) : ?>
+        <div class="text-danger">
+          <?= session()->getFlashdata('error') ?>
+        </div>
+      <?php endif; ?>
+          <a href="<?= base_url('/Register') ?>">Register</a>
           <div class="row">
             <!-- /.col -->
             <div class="col">

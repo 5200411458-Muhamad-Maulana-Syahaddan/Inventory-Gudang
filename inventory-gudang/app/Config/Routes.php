@@ -21,7 +21,7 @@ $routes->setDefaultController('Auth');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(false);
 
 /*
  * --------------------------------------------------------------------
@@ -31,14 +31,27 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+// Login
 $routes->get('/', 'Auth::index');
-$routes->get('/register', 'Register');
-// $routes->get('/register/', 'Auth::proses_register');
-// $routes->get('/Admin', 'Admin::index');
-// $routes->get('/Admin/input_barang', 'Admin::tambahbarang');
-// $routes->get('/Operator', 'Operator::index');
+$routes->post('/Signin', 'Auth::signin');
+
+// Register
+$routes->get('/Register', 'Register::index');
+$routes->post('Signup', 'Register::process');
+
+// Admin
+$routes->get('/Admin', 'Admin/Admin::index');
+$routes->get('/input_barang', 'Admin/Item::index');
+$routes->post('/input_barang/process', 'Admin/Item::input_item');
+$routes->get('/table_barang', 'Admin/Item::getItem');
+
+// Operator
+$routes->get('/Operator', 'Operator/Operator::index');
 // $routes->get('Operator/input_barang', 'Operator::tambahbarang');
-// $routes->get('/User', 'User::index');
+
+// Users
+$routes->get('/User', 'User/User::index');
 
 
 /*
