@@ -1,6 +1,6 @@
 APLIKASI INVENTORY GUDANG 
 - Untuk menjalankan aplikasinya, buka xampp jalankan Apache dan MySql.
-- Import database ke database local.
+- Import database inventory_gudang.sql ke database phpmyadmin.
 - masuk ke di folder app/config/database.php 
 - Cek databasenya.
 - Buka folder inventory-gudang ke vscode/code editor.
